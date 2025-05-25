@@ -7,6 +7,4 @@
 # But do NOT ignore any PDF files inside demo_prog (like guides/docs)
 !demo_prog/**/*.pdf
 
-# Ignore all DLP metadata or similar unwanted artifacts globally
-*.sec.endpointdlp
 
