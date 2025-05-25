@@ -1,10 +1,13 @@
-# Ignore all files in demo_prog folder recursively
-/demo_prog/**
+# Ignore binary executables (no file extension)
+demo_prog/**/client_*
+demo_prog/**/server_*
+demo_prog/**/command_parser
 
-# But do NOT ignore any C source files anywhere inside demo_prog
+# Allow all C source files and PDFs
 !demo_prog/**/*.c
-
-# But do NOT ignore any PDF files inside demo_prog (like guides/docs)
 !demo_prog/**/*.pdf
+
+# Ignore DLP-related metadata
+*.sec.endpointdlp
 
 
