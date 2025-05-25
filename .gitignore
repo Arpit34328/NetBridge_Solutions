@@ -1,4 +1,4 @@
 # Ignore the bin files
-/demo_prog/*
+/demo_prog/*/*
 !*.c     # Don't ignore source files
 
