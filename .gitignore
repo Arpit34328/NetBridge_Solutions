@@ -1,4 +1,12 @@
-# Ignore the bin files
-/demo_prog/*/*
-!*.c     # Don't ignore source files
+# Ignore all files in demo_prog folder recursively
+/demo_prog/**
+
+# But do NOT ignore any C source files anywhere inside demo_prog
+!demo_prog/**/*.c
+
+# But do NOT ignore any PDF files inside demo_prog (like guides/docs)
+!demo_prog/**/*.pdf
+
+# Ignore all DLP metadata or similar unwanted artifacts globally
+*.sec.endpointdlp
 
